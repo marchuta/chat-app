@@ -1,3 +1,4 @@
 class Message < ApplicationRecord
-  belong
+  belongs_to :room
+  belongs_to :user
 end
